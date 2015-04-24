@@ -130,7 +130,7 @@ LiveServer.start = function(options) {
 		}
 	});
 	// Output
-	var serveURL = "http://127.0.0.1:" + port;
+	var serveURL = "http://0.0.0.0:" + port;
 	if (logLevel >= 1)
 		console.log(('Serving "' + root + '" at ' + serveURL).green);
 
